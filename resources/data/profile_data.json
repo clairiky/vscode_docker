@@ -1,0 +1,4318 @@
+{
+  "frames": {
+    "frames": [
+      {
+        "children": [
+          {
+            "function": "MonteCarloPi",
+            "cpu_time": "11.88049",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "MonteCarloPi(long)",
+            "source_file": "montecarlopi.cpp",
+            "start_address": "0x180031920"
+          },
+          {
+            "function": "pybind11::detail::argument_loader<long>::call_impl<double,double (__cdecl*&)(long),0,pybind11::detail::void_type>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::argument_loader<long>::call_impl<double,double (__cdecl*&)(long),0,pybind11::detail::void_type>",
+            "source_file": "cast.h",
+            "start_address": "0x18002f3e0"
+          },
+          {
+            "function": "pybind11::detail::argument_loader<long>::call<double,pybind11::detail::void_type,double (__cdecl*&)(long)>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::argument_loader<long>::call<double,pybind11::detail::void_type,double (__cdecl*&)(long)>",
+            "source_file": "cast.h",
+            "start_address": "0x18002d690"
+          },
+          {
+            "function": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::operator()",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::operator()",
+            "source_file": "pybind11.h",
+            "start_address": "0x18002ae50"
+          },
+          {
+            "function": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::<lambda_invoker_cdecl>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::<lambda_invoker_cdecl>",
+            "source_file": "pybind11.h",
+            "start_address": "0x18002af70"
+          },
+          {
+            "function": "pybind11::cpp_function::dispatcher",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::cpp_function::dispatcher(struct _object *,struct _object *,struct _object *)",
+            "source_file": "pybind11.h",
+            "start_address": "0x180009010"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "PyEval_EvalCodeEx",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeEx",
+            "source_file": "ceval.c",
+            "start_address": "0x1800048c8"
+          },
+          {
+            "function": "PyEval_EvalCode",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCode",
+            "source_file": "ceval.c",
+            "start_address": "0x180004894"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "std::uniform_real<double>::operator()<class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> >",
+        "cpu_time": "11.88049",
+        "module": "montecarlopi.cp37-win_amd64.pyd",
+        "function_full": "std::uniform_real<double>::operator()<class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> >(class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> &)",
+        "source_file": "random",
+        "start_address": "0x18001e0f0"
+      },
+      {
+        "children": [
+          {
+            "function": "MonteCarloPi",
+            "cpu_time": "0.295551",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "MonteCarloPi(long)",
+            "source_file": "montecarlopi.cpp",
+            "start_address": "0x180031920"
+          },
+          {
+            "function": "pybind11::detail::argument_loader<long>::call_impl<double,double (__cdecl*&)(long),0,pybind11::detail::void_type>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::argument_loader<long>::call_impl<double,double (__cdecl*&)(long),0,pybind11::detail::void_type>",
+            "source_file": "cast.h",
+            "start_address": "0x18002f3e0"
+          },
+          {
+            "function": "pybind11::detail::argument_loader<long>::call<double,pybind11::detail::void_type,double (__cdecl*&)(long)>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::argument_loader<long>::call<double,pybind11::detail::void_type,double (__cdecl*&)(long)>",
+            "source_file": "cast.h",
+            "start_address": "0x18002d690"
+          },
+          {
+            "function": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::operator()",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::operator()",
+            "source_file": "pybind11.h",
+            "start_address": "0x18002ae50"
+          },
+          {
+            "function": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::<lambda_invoker_cdecl>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::<lambda_invoker_cdecl>",
+            "source_file": "pybind11.h",
+            "start_address": "0x18002af70"
+          },
+          {
+            "function": "pybind11::cpp_function::dispatcher",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::cpp_function::dispatcher(struct _object *,struct _object *,struct _object *)",
+            "source_file": "pybind11.h",
+            "start_address": "0x180009010"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "PyEval_EvalCodeEx",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeEx",
+            "source_file": "ceval.c",
+            "start_address": "0x1800048c8"
+          },
+          {
+            "function": "PyEval_EvalCode",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCode",
+            "source_file": "ceval.c",
+            "start_address": "0x180004894"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "inUnitCircle",
+        "cpu_time": "0.295551",
+        "module": "montecarlopi.cp37-win_amd64.pyd",
+        "function_full": "inUnitCircle(double,double)",
+        "source_file": "montecarlopi.cpp",
+        "start_address": "0x180031a30"
+      },
+      {
+        "children": [
+          {
+            "function": "pybind11::detail::argument_loader<long>::call_impl<double,double (__cdecl*&)(long),0,pybind11::detail::void_type>",
+            "cpu_time": "0.188681",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::argument_loader<long>::call_impl<double,double (__cdecl*&)(long),0,pybind11::detail::void_type>",
+            "source_file": "cast.h",
+            "start_address": "0x18002f3e0"
+          },
+          {
+            "function": "pybind11::detail::argument_loader<long>::call<double,pybind11::detail::void_type,double (__cdecl*&)(long)>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::argument_loader<long>::call<double,pybind11::detail::void_type,double (__cdecl*&)(long)>",
+            "source_file": "cast.h",
+            "start_address": "0x18002d690"
+          },
+          {
+            "function": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::operator()",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::operator()",
+            "source_file": "pybind11.h",
+            "start_address": "0x18002ae50"
+          },
+          {
+            "function": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::<lambda_invoker_cdecl>",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "<lambda_32c8b0b7ac186ec33c2e91f20ba20553>::<lambda_invoker_cdecl>",
+            "source_file": "pybind11.h",
+            "start_address": "0x18002af70"
+          },
+          {
+            "function": "pybind11::cpp_function::dispatcher",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::cpp_function::dispatcher(struct _object *,struct _object *,struct _object *)",
+            "source_file": "pybind11.h",
+            "start_address": "0x180009010"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "PyEval_EvalCodeEx",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeEx",
+            "source_file": "ceval.c",
+            "start_address": "0x1800048c8"
+          },
+          {
+            "function": "PyEval_EvalCode",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCode",
+            "source_file": "ceval.c",
+            "start_address": "0x180004894"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "MonteCarloPi",
+        "cpu_time": "0.188681",
+        "module": "montecarlopi.cp37-win_amd64.pyd",
+        "function_full": "MonteCarloPi(long)",
+        "source_file": "montecarlopi.cpp",
+        "start_address": "0x180031920"
+      },
+      {
+        "children": [
+          {
+            "function": "pybind11::detail::get_internals",
+            "cpu_time": "0.034869",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::get_internals(void)",
+            "source_file": "internals.h",
+            "start_address": "0x180003ee0"
+          },
+          {
+            "function": "pybind11::detail::loader_life_support::loader_life_support",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::detail::loader_life_support::loader_life_support(void)",
+            "source_file": "cast.h",
+            "start_address": "0x1800049c0"
+          },
+          {
+            "function": "pybind11::cpp_function::dispatcher",
+            "cpu_time": "0",
+            "module": "montecarlopi.cp37-win_amd64.pyd",
+            "function_full": "pybind11::cpp_function::dispatcher(struct _object *,struct _object *,struct _object *)",
+            "source_file": "pybind11.h",
+            "start_address": "0x180009010"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "PyEval_EvalCodeEx",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeEx",
+            "source_file": "ceval.c",
+            "start_address": "0x1800048c8"
+          },
+          {
+            "function": "PyEval_EvalCode",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCode",
+            "source_file": "ceval.c",
+            "start_address": "0x180004894"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "PyThread_tss_alloc",
+        "cpu_time": "0.034869",
+        "module": "python37.dll",
+        "function_full": "PyThread_tss_alloc",
+        "source_file": "thread.c",
+        "start_address": "0x1801bbea8"
+      },
+      {
+        "children": [
+          {
+            "function": "io_FileIO___init___impl",
+            "cpu_time": "0.007016",
+            "module": "python37.dll",
+            "function_full": "io_FileIO___init___impl",
+            "source_file": "fileio.c",
+            "start_address": "0x18001949c"
+          },
+          {
+            "function": "io_FileIO___init__",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "io_FileIO___init__",
+            "source_file": "fileio.c.h",
+            "start_address": "0x180040884"
+          },
+          {
+            "function": "type_call",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "type_call",
+            "source_file": "typeobject.c",
+            "start_address": "0x180026910"
+          },
+          {
+            "function": "PyObject_FastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_FastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x1800265d0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "builtin___import__",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin___import__",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x180057738"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "PyObject_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x180026060"
+          },
+          {
+            "function": "PyObject_CallFunctionVa",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallFunctionVa",
+            "source_file": "call.c",
+            "start_address": "0x180010758"
+          },
+          {
+            "function": "PyObject_CallFunction",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallFunction",
+            "source_file": "call.c",
+            "start_address": "0x180038a10"
+          },
+          {
+            "function": "PyImport_Import",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_Import",
+            "source_file": "import.c",
+            "start_address": "0x180038834"
+          },
+          {
+            "function": "PyImport_ImportModule",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModule",
+            "source_file": "import.c",
+            "start_address": "0x1800387f0"
+          },
+          {
+            "function": "init_sys_streams",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "init_sys_streams",
+            "source_file": "pylifecycle.c",
+            "start_address": "0x180038420"
+          },
+          {
+            "function": "Py_InitializeMainInterpreter",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_InitializeMainInterpreter",
+            "source_file": "pylifecycle.c",
+            "start_address": "0x180001928"
+          },
+          {
+            "function": "pymain_init_python_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_init_python_main",
+            "source_file": "main.c",
+            "start_address": "0x180031b28"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "wopen",
+        "cpu_time": "0.007016",
+        "module": "ucrtbase.dll",
+        "function_full": "wopen",
+        "source_file": "[Unknown]",
+        "start_address": "0x18006bfa0"
+      },
+      {
+        "children": [
+          {
+            "function": "insertdict",
+            "cpu_time": "0.006882",
+            "module": "python37.dll",
+            "function_full": "insertdict",
+            "source_file": "dictobject.c",
+            "start_address": "0x18002ce10"
+          },
+          {
+            "function": "PyDict_SetItem",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyDict_SetItem",
+            "source_file": "dictobject.c",
+            "start_address": "0x18002cd90"
+          },
+          {
+            "function": "compiler_add_o",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_add_o",
+            "source_file": "compile.c",
+            "start_address": "0x18003a47c"
+          },
+          {
+            "function": "compiler_addop_o",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_addop_o",
+            "source_file": "compile.c",
+            "start_address": "0x18003a328"
+          },
+          {
+            "function": "func@0x180085602",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180085602",
+            "source_file": "[Unknown]",
+            "start_address": "0x180085602"
+          },
+          {
+            "function": "compiler_joined_str",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_joined_str",
+            "source_file": "compile.c",
+            "start_address": "0x180196e28"
+          },
+          {
+            "function": "func@0x180085602",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180085602",
+            "source_file": "[Unknown]",
+            "start_address": "0x180085602"
+          },
+          {
+            "function": "compiler_call_helper",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_call_helper",
+            "source_file": "compile.c",
+            "start_address": "0x1800397b4"
+          },
+          {
+            "function": "compiler_call",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_call",
+            "source_file": "compile.c",
+            "start_address": "0x18005c380"
+          },
+          {
+            "function": "compiler_visit_expr",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_visit_expr",
+            "source_file": "compile.c",
+            "start_address": "0x18003a280"
+          },
+          {
+            "function": "compiler_visit_stmt_expr",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_visit_stmt_expr",
+            "source_file": "compile.c",
+            "start_address": "0x18005d754"
+          },
+          {
+            "function": "compiler_visit_stmt",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_visit_stmt",
+            "source_file": "compile.c",
+            "start_address": "0x1800061a8"
+          },
+          {
+            "function": "compiler_if",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_if",
+            "source_file": "compile.c",
+            "start_address": "0x1801969a4"
+          },
+          {
+            "function": "func@0x180066f91",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180066f91",
+            "source_file": "[Unknown]",
+            "start_address": "0x180066f91"
+          },
+          {
+            "function": "compiler_body",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_body",
+            "source_file": "compile.c",
+            "start_address": "0x1800060ec"
+          },
+          {
+            "function": "compiler_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "compiler_mod",
+            "source_file": "compile.c",
+            "start_address": "0x180005e68"
+          },
+          {
+            "function": "PyAST_CompileObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyAST_CompileObject",
+            "source_file": "compile.c",
+            "start_address": "0x1800059d4"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "lookdict",
+        "cpu_time": "0.006882",
+        "module": "python37.dll",
+        "function_full": "lookdict",
+        "source_file": "dictobject.c",
+        "start_address": "0x180015a90"
+      },
+      {
+        "children": [
+          {
+            "function": "ast_for_call",
+            "cpu_time": "0.006802",
+            "module": "python37.dll",
+            "function_full": "ast_for_call",
+            "source_file": "ast.c",
+            "start_address": "0x18003ef14"
+          },
+          {
+            "function": "ast_for_trailer",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_trailer",
+            "source_file": "ast.c",
+            "start_address": "0x18005d668"
+          },
+          {
+            "function": "ast_for_atom_expr",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_atom_expr",
+            "source_file": "ast.c",
+            "start_address": "0x18003e7d8"
+          },
+          {
+            "function": "ast_for_power",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_power",
+            "source_file": "ast.c",
+            "start_address": "0x18003e794"
+          },
+          {
+            "function": "ast_for_expr",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_expr",
+            "source_file": "ast.c",
+            "start_address": "0x18003e654"
+          },
+          {
+            "function": "ast_for_testlist",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_testlist",
+            "source_file": "ast.c",
+            "start_address": "0x18005c1cc"
+          },
+          {
+            "function": "ast_for_flow_stmt",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_flow_stmt",
+            "source_file": "ast.c",
+            "start_address": "0x180003cf4"
+          },
+          {
+            "function": "ast_for_suite",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_suite",
+            "source_file": "ast.c",
+            "start_address": "0x180003d90"
+          },
+          {
+            "function": "ast_for_funcdef_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "ast_for_funcdef_impl",
+            "source_file": "ast.c",
+            "start_address": "0x18005abe0"
+          },
+          {
+            "function": "PyAST_FromNodeObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyAST_FromNodeObject",
+            "source_file": "ast.c",
+            "start_address": "0x18000424c"
+          },
+          {
+            "function": "PyParser_ASTFromStringObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyParser_ASTFromStringObject",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004150"
+          },
+          {
+            "function": "PyRun_StringFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_StringFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1800046e8"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "PyEval_EvalCodeEx",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeEx",
+            "source_file": "ceval.c",
+            "start_address": "0x1800048c8"
+          },
+          {
+            "function": "PyEval_EvalCode",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCode",
+            "source_file": "ceval.c",
+            "start_address": "0x180004894"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "ast_for_expr",
+        "cpu_time": "0.006802",
+        "module": "python37.dll",
+        "function_full": "ast_for_expr",
+        "source_file": "ast.c",
+        "start_address": "0x18003e654"
+      },
+      {
+        "children": [
+          {
+            "function": "r_object",
+            "cpu_time": "0.00598",
+            "module": "python37.dll",
+            "function_full": "r_object",
+            "source_file": "marshal.c",
+            "start_address": "0x180028bd0"
+          },
+          {
+            "function": "r_object",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "r_object",
+            "source_file": "marshal.c",
+            "start_address": "0x180028bd0"
+          },
+          {
+            "function": "r_object",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "r_object",
+            "source_file": "marshal.c",
+            "start_address": "0x180028bd0"
+          },
+          {
+            "function": "r_object",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "r_object",
+            "source_file": "marshal.c",
+            "start_address": "0x180028bd0"
+          },
+          {
+            "function": "r_object",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "r_object",
+            "source_file": "marshal.c",
+            "start_address": "0x180028bd0"
+          },
+          {
+            "function": "read_object",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "read_object",
+            "source_file": "marshal.c",
+            "start_address": "0x180042da8"
+          },
+          {
+            "function": "marshal_loads_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "marshal_loads_impl",
+            "source_file": "marshal.c",
+            "start_address": "0x180042b84"
+          },
+          {
+            "function": "marshal_loads",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "marshal_loads",
+            "source_file": "marshal.c.h",
+            "start_address": "0x180042980"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "PyEval_EvalCodeEx",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeEx",
+            "source_file": "ceval.c",
+            "start_address": "0x1800048c8"
+          },
+          {
+            "function": "PyEval_EvalCode",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCode",
+            "source_file": "ceval.c",
+            "start_address": "0x180004894"
+          },
+          {
+            "function": "run_mod",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "run_mod",
+            "source_file": "pythonrun.c",
+            "start_address": "0x180004828"
+          },
+          {
+            "function": "PyRun_FileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_FileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b747c"
+          },
+          {
+            "function": "PyRun_SimpleFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_SimpleFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b7b20"
+          },
+          {
+            "function": "PyRun_AnyFileExFlags",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyRun_AnyFileExFlags",
+            "source_file": "pythonrun.c",
+            "start_address": "0x1801b73ac"
+          },
+          {
+            "function": "pymain_run_file",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_file",
+            "source_file": "main.c",
+            "start_address": "0x1800fd418"
+          },
+          {
+            "function": "pymain_run_filename",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_run_filename",
+            "source_file": "main.c",
+            "start_address": "0x1800fd510"
+          },
+          {
+            "function": "func@0x180092747",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "func@0x180092747",
+            "source_file": "[Unknown]",
+            "start_address": "0x180092747"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "SwitchToThread",
+        "cpu_time": "0.00598",
+        "module": "KERNELBASE.dll",
+        "function_full": "SwitchToThread",
+        "source_file": "[Unknown]",
+        "start_address": "0x18004dd40"
+      },
+      {
+        "children": [
+          {
+            "function": "win32_xstat_impl",
+            "cpu_time": "0.005697",
+            "module": "python37.dll",
+            "function_full": "win32_xstat_impl",
+            "source_file": "posixmodule.c",
+            "start_address": "0x180052ce4"
+          },
+          {
+            "function": "os_stat",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "os_stat",
+            "source_file": "posixmodule.c.h",
+            "start_address": "0x18001d22c"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallKeywords",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallKeywords",
+            "source_file": "call.c",
+            "start_address": "0x18002dc10"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "import_name",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_name",
+            "source_file": "ceval.c",
+            "start_address": "0x180016dec"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "builtin_exec_impl",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec_impl",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x18000ba3c"
+          },
+          {
+            "function": "builtin_exec",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin_exec",
+            "source_file": "bltinmodule.c.h",
+            "start_address": "0x18000b9c0"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "do_call_core",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "do_call_core",
+            "source_file": "ceval.c",
+            "start_address": "0x180010480"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyEval_EvalCodeWithName",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalCodeWithName",
+            "source_file": "ceval.c",
+            "start_address": "0x18001efe0"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "call_function",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "call_function",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e490"
+          },
+          {
+            "function": "PyEval_EvalFrameDefault",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyEval_EvalFrameDefault",
+            "source_file": "ceval.c",
+            "start_address": "0x18002e970"
+          },
+          {
+            "function": "PyFunction_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyFunction_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x18001ec50"
+          },
+          {
+            "function": "object_vacall",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "object_vacall",
+            "source_file": "call.c",
+            "start_address": "0x18001ddc0"
+          },
+          {
+            "function": "PyObject_CallMethodIdObjArgs",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallMethodIdObjArgs",
+            "source_file": "call.c",
+            "start_address": "0x18001dd5c"
+          },
+          {
+            "function": "import_find_and_load",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "import_find_and_load",
+            "source_file": "import.c",
+            "start_address": "0x180055844"
+          },
+          {
+            "function": "PyImport_ImportModuleLevelObject",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModuleLevelObject",
+            "source_file": "import.c",
+            "start_address": "0x18001d424"
+          },
+          {
+            "function": "builtin___import__",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "builtin___import__",
+            "source_file": "bltinmodule.c",
+            "start_address": "0x180057738"
+          },
+          {
+            "function": "PyMethodDef_RawFastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyMethodDef_RawFastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x1800262f0"
+          },
+          {
+            "function": "PyObject_FastCallDict",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_FastCallDict",
+            "source_file": "call.c",
+            "start_address": "0x180026060"
+          },
+          {
+            "function": "PyObject_CallFunctionVa",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallFunctionVa",
+            "source_file": "call.c",
+            "start_address": "0x180010758"
+          },
+          {
+            "function": "PyObject_CallFunction",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyObject_CallFunction",
+            "source_file": "call.c",
+            "start_address": "0x180038a10"
+          },
+          {
+            "function": "PyImport_Import",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_Import",
+            "source_file": "import.c",
+            "start_address": "0x180038834"
+          },
+          {
+            "function": "PyImport_ImportModule",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "PyImport_ImportModule",
+            "source_file": "import.c",
+            "start_address": "0x1800387f0"
+          },
+          {
+            "function": "initsite",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "initsite",
+            "source_file": "pylifecycle.c",
+            "start_address": "0x180001b7c"
+          },
+          {
+            "function": "Py_InitializeMainInterpreter",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_InitializeMainInterpreter",
+            "source_file": "pylifecycle.c",
+            "start_address": "0x180001928"
+          },
+          {
+            "function": "pymain_init_python_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_init_python_main",
+            "source_file": "main.c",
+            "start_address": "0x180031b28"
+          },
+          {
+            "function": "pymain_main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "pymain_main",
+            "source_file": "main.c",
+            "start_address": "0x1800315dc"
+          },
+          {
+            "function": "Py_Main",
+            "cpu_time": "0",
+            "module": "python37.dll",
+            "function_full": "Py_Main",
+            "source_file": "main.c",
+            "start_address": "0x18003115c"
+          },
+          {
+            "function": "_scrt_common_main_seh",
+            "cpu_time": "0",
+            "module": "python.exe",
+            "function_full": "_scrt_common_main_seh",
+            "source_file": "exe_common.inl",
+            "start_address": "0x140001150"
+          },
+          {
+            "function": "BaseThreadInitThunk",
+            "cpu_time": "0",
+            "module": "KERNEL32.DLL",
+            "function_full": "BaseThreadInitThunk",
+            "source_file": "[Unknown]",
+            "start_address": "0x180008350"
+          },
+          {
+            "function": "RtlUserThreadStart",
+            "cpu_time": "0",
+            "module": "ntdll.dll",
+            "function_full": "RtlUserThreadStart",
+            "source_file": "[Unknown]",
+            "start_address": "0x18006e830"
+          }
+        ],
+        "function": "CreateFileW",
+        "cpu_time": "0.005697",
+        "module": "KERNELBASE.dll",
+        "function_full": "CreateFileW",
+        "source_file": "[Unknown]",
+        "start_address": "0x180025260"
+      }
+    ]
+  },
+  "cpu": [
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "97"
+  ],
+  "module_attribution": [
+    {
+      "module": "montecarlopi.cp37-win_amd64.pyd",
+      "time": 12.36472,
+      "fraction": 99.45908
+    },
+    {
+      "module": "python37.dll",
+      "time": 0.048553,
+      "fraction": 0.39054963
+    },
+    {
+      "module": "ucrtbase.dll",
+      "time": 0.007016,
+      "fraction": 0.0564351566
+    },
+    {
+      "module": "KERNELBASE.dll",
+      "time": 0.011677,
+      "fraction": 0.09392721
+    }
+  ]
+}

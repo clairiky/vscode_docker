@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <script src="${bundleUri}"></script>
+
+    <style>
+      html, body { 
+        margin: 0; 
+        padding: 0; 
+        height: 100%;
+      }
+
+      h1 { text-align: center; }
+
+      .container {
+        height: 100%;
+        margin: auto;
+        padding: 15px;
+        /*overflow-x: auto;*/
+        overflow: auto
+      }
+
+      .c3 {
+        fill: var(--vscode-editor-foreground);
+      }
+
+      .c3-axis path, .c3-axis line{ 
+        stroke: var(--vscode-editorLineNumber-foreground);
+      }
+
+      .c3-tooltip td {
+        background-color: var(--vscode-editor-background);
+        font-size: 14px;
+        padding: 2px 5px;
+        text-align: left;
+        color: var(--vscode-editor-foreground); 
+      }
+
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div id="profileData" style="display: none;">${profileData}</div>
+      <h1>Mixed-mode profiling summary</h1>
+      <h2>Timeline chart</h2>
+      <div id="timeline" style="height:290px; width:100%;"></div>
+      <h2 style="display: none">Local lines counter</h2>
+      <div style="display: none" id="lines-of-code-counter">0</div>
+      <h2 style="display: none">Latest communication from host</h2>
+      <div style="display: none" id="latest-comm"></div>
+      <h2 style="display: none">Message</h2>
+      <div style="display: none" id="message">0</div>
+      
+      <h2>Module breakdown</h2>
+      <div id="modules" style="height:290px; width:100%;"></div>
+
+      <h2>Hot functions</h2>
+      <div style="margin-bottom:4px"><input placeholder="Filter..." type="text" id="filter-textbox" oninput="onTextboxFilterChanged()" /></div>
+      <div id="myGrid" class="ag-theme-blue" style="height: 300px; overflow-x: auto"></div>
+    </div>
+    <script src="${script}"></script>
+
+  </body>
+</html>
