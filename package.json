@@ -11,28 +11,32 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.testD3js",
-        "onCommand:extension.refactor"
+        "onCommand:extension.testDocker"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.testD3js",
+                "command": "extension.testDocker",
                 "title": "test",
                 "category": "Python Profiler"
             },
             {
-                "command": "extension.refactor",
-                "title": "refactor",
-                "category": "Python Profiler"
+                "command": "extension.Convert",
+                "title": "Convert"
+            },
+            {
+                "command": "extension.Quantize",
+                "title": "Quantize"
             }
         ],
         "menus": {
             "explorer/context": [
                 {
-                    "command": "extension.testD3js",
-                    "title" : "Profile"
+                    "command": "extension.Convert"
+                },
+                {
+                    "command": "extension.Quantize"
                 }
             ]
         }

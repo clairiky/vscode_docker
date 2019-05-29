@@ -5,10 +5,10 @@ import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
 import * as cp from 'child_process';
-import * as d3x from './d3extension';
+
 import { ModelManager } from './modelManager';
 import { DockerManager } from './dockerManager';
-
+import { basename } from 'path';
 // utilities
 function interpolateTemplate(template: string, params: Object) {
     const names = Object.keys(params);
@@ -19,25 +19,31 @@ function interpolateTemplate(template: string, params: Object) {
 // creates the docker class which is an abstraction of all the things that a docker does
 export function activate(context: vscode.ExtensionContext) {
 
-    let dockerManager = new DockerManager();
-    
-    let createPanelDisposable = vscode.commands.registerCommand('extension.testD3js', () => {
-        
-        let p = cp.spawn('docker', ['run', '-d', '-it' ,'test_7', 'cmd']);
-        
-        p.stdout.on("data", (data : string | Buffer) : void => {
-            console.log(`data ${data} `); // get the first 10 letters of the hash for the container id
-       });
-       p.stderr.on("data", (data : string | Buffer) : void => {
-            console.log(`error ${data} `);
-       });
-
-       p.on('exit', (exitCode : number, signal) : void => {
-                console.log('child process exited with ' +
-                `code ${exitCode} and signal ${signal}`); // check exit code to check if the container is running
-              });
+    let dockerManager : DockerManager = new DockerManager();  // constructor gets all the images in the host. This needs to get the 
+                                                              // images from dockerhub if the images that we need arent there in the host.
+                                                              // The on.exit is when we have all the images. So that needs to ha
+    let startDocker = vscode.commands.registerCommand('extension.testDocker', () => {
+        // tell the user that the development/deployment env is getting ready
+        // using a pop up.
+        vscode.window.showInformationMessage("Starting the target development environment...");
     });
-    context.subscriptions.push(createPanelDisposable);
+
+    
+    let convert = vscode.commands.registerCommand('extension.Convert',  (fileuri:any) => {
+        // get the file name with which the right click command was executed
+        dockerManager.dockerExec("dockerRun_command")
+        console.log(`Converting....${basename(fileuri.fsPath)}`); // get the first 10 letters of the hash for the container id
+    });
+
+
+    let quantize = vscode.commands.registerCommand('extension.Quantize', () => {
+        //dockerManager.dockerExec("dockerRun_command")
+        console.log("Quantize...."); // get the first 10 letters of the hash for the container id
+    });
+    context.subscriptions.push(startDocker);
+    context.subscriptions.push(convert);
+    context.subscriptions.push(quantize);
+    context.subscriptions.push(dockerManager);
 }
 
 // this method is called when your extension is deactivated
@@ -45,36 +51,6 @@ export function deactivate() {
     /* empty */
 }
 
-export function getHtmlContent(extensionPath: string): string {
-    let resourcePath = path.join(extensionPath, 'resources');
-    let scriptPath = vscode.Uri.file(path.join(resourcePath, 'main.js')).with({ scheme: 'vscode-resource' });
-    let bundleUri = vscode.Uri.file(path.join(resourcePath, 'bundle.js')).with({ scheme: 'vscode-resource' });
-    // Async read
-    //let datajson = fs.readFile(path.join(resourcePath, "/data/data2.json"), "utf8", 
-    //                function(err, contents){console.log(`data found ${contents}.`);});
 
-    let htmlTemplate = fs.readFileSync(path.join(resourcePath, "index.html"), "utf8");
-    let datajson = fs.readFileSync(path.join(os.tmpdir(), "output.json"), "utf8");
 
-    let result = interpolateTemplate(htmlTemplate, {
-        profileData: datajson,
-        script: scriptPath,
-        bundleUri: bundleUri
-    });
 
-    return result;
-}
-
-function getSourceWebviewContent() {
-    return `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Source</title>
-</head>
-<body>
-    <h1>Source</h1>
-</body>
-</html>`;
-}

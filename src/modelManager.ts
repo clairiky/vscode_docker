@@ -9,7 +9,7 @@ export class ModelManager {
     }
 
     convert(data: string) { // this data contains the python script to convert.. maybe
-        this._dm.dockerRun(data);
+        //this._dm.dockerRun(data);
     }
 
     quantize(data: string) { 
