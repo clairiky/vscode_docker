@@ -31,7 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
     
     let convert = vscode.commands.registerCommand('extension.Convert',  (fileuri:any) => {
         // get the file name with which the right click command was executed
-        dockerManager.dockerExec("dockerRun_command")
+        dockerManager.dockerExec(fileuri);
         console.log(`Converting....${basename(fileuri.fsPath)}`); // get the first 10 letters of the hash for the container id
     });
 
