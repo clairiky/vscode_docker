@@ -23,7 +23,7 @@
             },
             {
                 "command": "extension.Convert",
-                "title": "Convert"
+                "title": "Convert to ONNX"
             },
             {
                 "command": "extension.Quantize",

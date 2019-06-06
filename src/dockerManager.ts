@@ -11,6 +11,7 @@ export class DockerManager {
     constructor() {
         this._imageIds = [];
         this._containerIds = [];
+        let currentContainerId: string = "";
         if (vscode.window.activeTextEditor)
             this._workspace = vscode.workspace.getWorkspaceFolder(vscode.window.activeTextEditor.document.uri);
         let images = cp.spawn('docker', ['images', 'onnx-ecosystem:latest']);
@@ -31,9 +32,7 @@ export class DockerManager {
                     console.log(`mount location:${mountLocation}`);
                     console.log(`${this._imageIds[0]}`);
 
-                    //let runningContainer = cp.spawn('docker', ['run', '-t', '-d', '--mount', mountLocation, this._imageIds[0]]);
-                    let runningContainer = cp.spawn('docker', ['run', '-t', '-d', '--mount', mountLocation, "onnx-ecosystem:latest"]);
-                    //let runningContainer = cp.spawn('docker', ['run', '-t', '-d', '--mount', 'source=D:\\dev\\onnx-ecosystem,target=C:\\dev,type=bind', 'onnx-ecosystem:latest']);
+                    let runningContainer = cp.spawn('docker', ['run', '-t', '-d', '--mount', mountLocation, this._imageIds[0]]);
 
                     console.log(this._workspace.uri.fsPath);
                     runningContainer.on('error', (err) => {
@@ -41,8 +40,8 @@ export class DockerManager {
                     });
 
                     runningContainer.stdout.on('data', (data: string) => {
-                        console.log(`container id is ${data.toString()}`);
-                        this._containerIds.push(data.toString().substr(0, 12));
+                        console.log(`Creating container id ${data.toString()}`);
+                        currentContainerId = data.toString();
                     });
 
                     runningContainer.on('exit', (err) => {
@@ -51,28 +50,10 @@ export class DockerManager {
                             console.log(`Exit with error code:  ${err}`);
                         }
                         else {
+                            this._containerIds.push(currentContainerId.substr(0, 12));
                             vscode.window.showInformationMessage("Development environment is ready!");
-                            console.log("Development environment successfully running!");
-                            // probably need to remove the containerid that was pushed in if the running wasnt successful
+                            console.log("Development environment successfully running!");     
                         }
-
-                        // let netronCP = cp.spawn('C:\\Program Files\\Netron\\Netron.exe', ["C:\\Users\\Chanchala\\onnx-docker-private\\onnx-ecosystem\\examples\\saved_model.pb"], { env: [] });
-                        // netronCP.on('error', (err) => {
-                        //     console.log('Failed to start the container.');
-                        // });
-
-                        // netronCP.stdout.on('data', (data: string) => {
-                        //     console.log(`container id is ${data.toString()}`);
-                        //     this._containerIds.push(data.toString().substr(0, 12));
-                        // });
-
-                        // netronCP.on('exit', (err: any) => {
-                        //     if (err != 0) {
-                        //         //vscode.window.showInformationMessage("Conversion failed");
-                        //         console.log(`Exit with error code:  ${err}`);
-
-                        //     }
-                        // });
 
                     });
                 }
@@ -83,17 +64,11 @@ export class DockerManager {
 
     // Docker exec needs a running container, 
     dockerExec(fileuri: any) {
-        //docker exec 3798452640c9 python c:\test1.py
-        console.log("Coming here");
-        /*C:\\${basename(this._workspace.uri.fsPath)}\\tf_onnx.py and C:\\${basename(fileuri.fsPath)}*/
+        
         if (this._workspace && vscode.workspace.workspaceFolders) {
             console.log(`Location: C:\\${basename(this._workspace.uri.fsPath)}\\tf_onnx.py C:\\${basename(this._workspace.uri.fsPath)}\\${basename(fileuri.fsPath)}`);
             let exec = cp.spawn('docker', ['exec',  this._containerIds[0], 'python', `C:\\${basename(this._workspace.uri.fsPath)}\\tf_onnx.py`, `C:\\${basename(this._workspace.uri.fsPath)}\\${basename(fileuri.fsPath)}`]);
-            //let exec = cp.spawn('docker', ['exec', '51846283f8c8', 'python', "C:\\dev\\examples\\New folder\\tf_onnx.py", "C:\\dev\\examples\\New folder\\saved_model.pb"]);
-            //let exec = cp.spawn('docker', ['exec', this._containerIds[0], 'python', "C:\\dev\\examples\\New folder\\tf_onnx.py", "C:\\dev\\examples\\New folder\\saved_model.pb"]);
-            //console.log(`Location: C:\\${basename(this._workspace.uri.fsPath)}\\tf_onnx.py and C:\\${basename(fileuri.fsPath)}`);
-            //let exec = cp.spawn('docker', ['exec', 'a407bad430b3', 'python', "C:\\New folder\\tf_onnx.py", "C:\\New folder\\saved_model.pb"]);
-            //let exec = cp.spawn('docker', ['exec', '6d0429195e92', 'python', "C:\\dev\\examples\\New folder\\tf_onnx.py", "C:\\dev\\examples\\New folder\\saved_model.pb"]);
+
             console.log("Converting...");
             exec.on('error', (err) => {
                 console.log('Failed to start the container.');
@@ -112,7 +87,6 @@ export class DockerManager {
                 else {
                     vscode.window.showInformationMessage("Converted to an onnx model!");
                     console.log("Converted to an onnx model!");
-                    // probably need to remove the containerid that was pushed in if the running wasnt successful
                 }
 
             });
