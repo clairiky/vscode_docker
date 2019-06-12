@@ -19,9 +19,11 @@ function interpolateTemplate(template: string, params: Object) {
 // creates the docker class which is an abstraction of all the things that a docker does
 export function activate(context: vscode.ExtensionContext) {
 
-    let dockerManager : DockerManager = new DockerManager();  // constructor gets all the images in the host. This needs to get the 
+    let dockerManager : DockerManager = new DockerManager(context.extensionPath);  // constructor gets all the images in the host. This needs to get the 
                                                               // images from dockerhub if the images that we need arent there in the host.
                                                               // The on.exit is when we have all the images. So that needs to ha
+
+
     let startDocker = vscode.commands.registerCommand('extension.testDocker', () => {
         // tell the user that the development/deployment env is getting ready
         // using a pop up.
@@ -31,7 +33,7 @@ export function activate(context: vscode.ExtensionContext) {
     
     let convert = vscode.commands.registerCommand('extension.Convert',  (fileuri:any) => {
         // get the file name with which the right click command was executed
-        dockerManager.dockerExec(fileuri);
+       // dockerManager.dockerExec(fileuri);
         console.log(`Converting....${basename(fileuri.fsPath)}`); 
     });
 
@@ -40,11 +42,19 @@ export function activate(context: vscode.ExtensionContext) {
         //dockerManager.dockerExec("dockerRun_command")
         console.log("Quantize...."); 
     });
+
+    let validate = vscode.commands.registerCommand('extension.Validate', () => {
+        dockerManager.dockerValidate();
+       // selectWorkspaceFolder(context);
+        console.log("Validate...."); 
+
+    });
     context.subscriptions.push(startDocker);
     context.subscriptions.push(convert);
     context.subscriptions.push(quantize);
     context.subscriptions.push(dockerManager);
 }
+
 
 // this method is called when your extension is deactivated
 export function deactivate() {

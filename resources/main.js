@@ -16,6 +16,7 @@
           }
       }, 500);
 
+
      let profileData = JSON.parse(document.getElementById("profileData").textContent);
          
      let moduleDistribution = profileData.module_attribution;
@@ -46,7 +47,7 @@
         //console.log(`i is ${i}`)
         time.push( i.toFixed(3) );
     });
-    //console.log(`Time length ${time.length}`);
+    console.log(`Time length ${time.length}`);
     //console.log(`CPU lenght ${cpu.length}`);
     // CPU utilization timeline chart
     var chart = c3.generate({
@@ -102,6 +103,16 @@
 
       });
   })();
+
+function msg() {
+    let folders = document.getElementById("myfolders").textContent;
+    console.log(`Selected folders are ${folders}`);
+
+    vscode.postMessage({
+        command: 'alert',
+        text: 'communicating with host'
+    });
+}
 
   function linkRenderer(params) {
     // Need to check data when grouping (see https://www.ag-grid.com/javascript-grid-cell-rendering-components/#cell-renderers-and-row-groups)

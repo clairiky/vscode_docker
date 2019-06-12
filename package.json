@@ -28,6 +28,10 @@
             {
                 "command": "extension.Quantize",
                 "title": "Quantize"
+            },
+            {
+                "command": "extension.Validate",
+                "title": "Validate"
             }
         ],
         "menus": {
@@ -37,6 +41,9 @@
                 },
                 {
                     "command": "extension.Quantize"
+                },
+                {
+                    "command": "extension.Validate"
                 }
             ]
         }
